@@ -21,6 +21,6 @@ services:
             - polinet
         #volumes:
         #    - home/ec2-user/vol:/vol:ro
- networks:
+networks:
     polinet:
         driver: bridge
